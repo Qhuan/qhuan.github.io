@@ -6,11 +6,11 @@
   <meta http-equiv="Cache-Control" content="no-siteapp">
   <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
   <meta name="renderer" content="webkit">
-  <!-- 引入busuanzi导致Mixed Content -->
+  <!-- 解决引入busuanzi导致Mixed Content的问题 -->
   <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
 
   
-  <title>Hello World | Qhuan</title>
+  <title>Hello World | Qhuan&#39;s Blog</title>
 
   <link rel="shortcut icon" href="/images/favicon.ico">
   
@@ -18,11 +18,11 @@
 <meta property="og:type" content="article">
 <meta property="og:title" content="Hello World">
 <meta property="og:url" content="https://qhuan.github.io/2019/12/30/hello-world/index.html">
-<meta property="og:site_name" content="Qhuan">
+<meta property="og:site_name" content="Qhuan&#39;s Blog">
 <meta property="og:description" content="建站第一天，原来的网站小欢子大人的博客网站不更新了，后面就在这个博客上面继续更新了。该博客网站是基于Hexo和Materialized主题搭建，并托管于github上，内容格式全部由markdown排版,欢迎阅读浏览！ Quick StartJava12345class Hello &amp;#123;    public class void main(String[] args) &amp;#123;">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2019-12-30T01:17:14.499Z">
-<meta property="article:modified_time" content="2019-12-31T11:55:46.704Z">
+<meta property="article:modified_time" content="2020-01-01T08:31:40.180Z">
 <meta property="article:author" content="Qhuan">
 <meta name="twitter:card" content="summary">
 
@@ -32,17 +32,17 @@
   <meta name="keywords" content="">
 
   <meta name="mobile-web-app-capable" content="yes">
-  <meta name="application-name" content="Qhuan">
+  <meta name="application-name" content="Qhuan&#39;s Blog">
   <meta name="msapplication-starturl" content="https://qhuan.github.io/2019/12/30/hello-world/">
   <meta name="msapplication-navbutton-color" content="#9C27B0">
   <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-title" content="Qhuan">
+  <meta name="apple-mobile-web-app-title" content="Qhuan&#39;s Blog">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   <link rel="apple-touch-icon" href="/images/favicon.ico">
 
   
     <meta property="article:published_time" content="Mon Dec 30 2019 09:17:14 GMT+0800">
-    <meta property="article:modified_time" content="Tue Dec 31 2019 19:55:46 GMT+0800">
+    <meta property="article:modified_time" content="Wed Jan 01 2020 16:31:40 GMT+0800">
   
 
   
@@ -66,7 +66,7 @@
   <header id="header" class="mdui-appbar mdui-appbar-fixed mdui-appbar-scroll-hide mdui-appbar-inset">
   <div class="mdui-toolbar mdui-color-theme">
     <a href="javascript:;" class="mdui-btn mdui-btn-icon" mdui-drawer="{target: '#sidebar', swipe: true}"><i class="mdui-icon material-icons">menu</i></a>
-    <a href="/" class="mdui-typo-headline">Qhuan</a>
+    <a href="/" class="mdui-typo-headline">Qhuan&#39;s Blog</a>
     <div class="mdui-toolbar-spacer"></div>
     <a href="javascript:;" class="mdui-btn mdui-btn-icon" mdui-dialog="{target: '#search'}" mdui-tooltip="{content: '搜索'}"><i class="mdui-icon material-icons">search</i></a>
     
@@ -122,9 +122,7 @@
       </div>
       <div class="mdui-collapse-item-body mdui-list mdui-list-dense">
         
-        
-        
-          <a href="javascript:;" class="mdui-list-item mdui-ripple mdui-p-l-2 mdui-text-color-theme" style="justify-content: center;">分类为空</a>
+        <a class="mdui-ripple sidebar_archives-link" href="/categories/java/">java<span class="mdui-ripple sidebar_archives-count">1</span></a>
         
       </div>
     </div>
@@ -177,7 +175,7 @@
   <style>#main article .mdui-card-content .center-block{display:block!important;margin-right:auto!important;margin-left:auto!important}</style>
   <article class="mdui-card mdui-m-b-5">
     <header class="mdui-card-media">
-      <!-- <img src="/images/random/material-2.png" style="max-height: 240px;"> -->
+      <!-- <img src="/images/random/material-3.png" style="max-height: 240px;"> -->
       <!-- <img src="https://picsum.photos/900/240" style="max-height: 300px;"> -->
       <img src="https://uploadbeta.com/api/pictures/random/?key=BingEverydayWallpaperPicture" style="max-height: 400px;">
       <div class="mdui-card-media-covered">
@@ -191,11 +189,11 @@
           <button class="mdui-btn mdui-btn-icon mdui-text-color-white" mdui-menu="{target: '#qrcode', align: 'right'}"><i class="mdui-icon material-icons">devices</i></button>
           <ul class="mdui-menu" id="qrcode">
             
-              <li class="mdui-menu-item"><a class="mdui-text-center mdui-ripple">Send to mobile phone</a></li>
+              <li class="mdui-menu-item"><a class="mdui-text-center mdui-ripple">扫一扫手机继续看</a></li>
             
             <li class="mdui-menu-item" disabled>
               
-                <img src="http://qr.liantu.com/api.php?w=246&m=10&text=https://qhuan.github.io/2019/12/30/hello-world/">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAN4AAADeCAAAAAB3DOFrAAACXElEQVR42u3aS3LCMBAFQO5/abLNJuY9/XCgtaIKY6m10AyaeTw/ejzw8PDw8PDw8PBuxnvE4/fz+efruf76dmxteHh4eCd5L47ayynz52eeSdaGh4eHd56XBIP2EL+eK5+3WBseHh7ezXhtkLjeFDw8PLxv4F0vNEmvXyTEeHh4eP+Kl//hz4/15Ldj3+Lh4eG9l7evADb/+db1PTw8vK/k1S1NwQTJ4p7bBh4eHt5u3nUSPLOstiQWpctJwwEeHh7eZt4YtT362wS9nREPDw/vJC9vGx0ric1cOiTBCQ8PD+9dvLHCVXslMZM6F80HeHh4eEd4eXm+DRvX7Da5j1aLh4eHd4S3qkV1rI11VZDAw8PDexcvoa5qOJjH4OHh4b2Llxzr+TVrGx7yYluUjuPh4eEd4SXF/rGWrHazkstlPDw8vPvz2lJZWxjLW7IW1Pfw8PDwpnn5QVxMUDan5mGpTqnx8PDwNvDyg7hddF4Ym9lEPDw8vPO86+uDNuXND/3BpSctDnh4eHibeUWqOnF9sAo5eNeCh4eHt5Q33yCVl75mil7Fe/Dw8PCO8NrCf56C50FoEIOHh4d3nJdfwrZls1WJeBuW8PDw8Hbz2tEe6GPb0ZbQ8PDw8E7yHvFoWw3GSmgzhTQ8PDy8k7z2uiGZMsG3l8JTrQN4eHh4G3jFK4JNSQLD2uCEh4eHd09eEgzm21WnWhDw8PDwbszLC1dJYSxPsl9sBx4eHt5BXns0r3pDWyR78WY8PDy8I7xlFwHBIvK3jW0oHh4e3m7e5w08PDw8PDw8PLwbjB/Csism7FPRMwAAAABJRU5ErkJggg==">
               
             </li>
           </ul>
@@ -219,7 +217,7 @@
               <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://qhuan.github.io/2019/12/30/hello-world/&title=Hello World" target="_blank" class="mdui-ripple">分享到LinkedIn</a>
             </li>
             <li class="mdui-menu-item">
-              <a href="http://connect.qq.com/widget/shareqq/index.html?site=Qhuan&title=Hello World&summary=&pics=https://qhuan.github.io/images/favicon.ico&url=https://qhuan.github.io/2019/12/30/hello-world/" target="_blank" class="mdui-ripple">分享到QQ</a>
+              <a href="http://connect.qq.com/widget/shareqq/index.html?site=Qhuan&#39;s Blog&title=Hello World&summary=&pics=https://qhuan.github.io/images/favicon.ico&url=https://qhuan.github.io/2019/12/30/hello-world/" target="_blank" class="mdui-ripple">分享到QQ</a>
             </li>
             <li class="mdui-menu-item">
               <a href="https://telegram.me/share/url?url=https://qhuan.github.io/2019/12/30/hello-world/&text=Hello World" target="_blank" class="mdui-ripple">分享到Telegram</a>
@@ -246,6 +244,8 @@
       
     </div>
     <footer class="mdui-card-actions">
+      
+        <a class="mdui-ripple article_categories-link" href="/categories/java/">java</a>
       
       
     </footer>
