@@ -5584,7 +5584,8 @@ body.mdui-locked {
   background-color: #ffab40;
 }
 .mdui-theme-accent-pink .mdui-typo a {
-  color: #ff4081;
+  /* color: #ff4081; */
+  color: #0681d0;
 }
 .mdui-theme-accent-pink .mdui-typo a:before {
   background-color: #ff4081;
