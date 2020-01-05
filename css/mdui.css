@@ -8360,7 +8360,7 @@ input.mdui-btn[type="submit"] {
 /* 添加类 .mdui-fab-hide 以动画的形式隐藏按钮 */
 .mdui-fab,
 .mdui-fab-mini,
-.mdui-fab-wrapper {
+  .mdui-fab-wrapper {
   -webkit-transition: all .2s cubic-bezier(.4, 0, .2, 1), -webkit-box-shadow .2s cubic-bezier(.4, 0, 1, 1), -webkit-transform .2s;
           transition: all .2s cubic-bezier(.4, 0, .2, 1), -webkit-box-shadow .2s cubic-bezier(.4, 0, 1, 1), -webkit-transform .2s;
           transition: all .2s cubic-bezier(.4, 0, .2, 1), box-shadow .2s cubic-bezier(.4, 0, 1, 1), transform .2s;
