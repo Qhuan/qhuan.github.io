@@ -4,19 +4,6 @@
   
     
     <entry>
-      <title>happyUcloud</title>
-      <link href="/2020/08/01/happyUcloud/"/>
-      <url>/2020/08/01/happyUcloud/</url>
-      
-        <content type="html"><![CDATA[<h2 id="吃饭"><a href="#吃饭" class="headerlink" title="吃饭"></a>吃饭</h2><p><img src="happyUcloud/34094eb4.png" alt=""><br><img src="happyUcloud/f4b8f8a3.png" alt=""></p><h3 id="Go"><a href="#Go" class="headerlink" title="Go"></a>Go</h3><figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> main</span><br><span class="line"><span class="keyword">import</span> <span class="string">"fmt"</span></span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">main</span><span class="params">()</span></span> &#123;</span><br><span class="line">    fmt.Println(<span class="string">"Hello, World!"</span>)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>Hello World</title>
       <link href="/2020/07/05/hello-world/"/>
       <url>/2020/07/05/hello-world/</url>
