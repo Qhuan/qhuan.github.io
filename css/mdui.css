@@ -9734,7 +9734,7 @@ select.mdui-select[multiple] option:last-child {
 .mdui-card-content {
   position: relative;
   padding: 16px;
-  font-size: 14px;
+  font-size: 15px;
   line-height: 24px;
 }
 /**
